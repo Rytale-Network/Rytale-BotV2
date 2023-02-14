@@ -38,8 +38,8 @@ client.on('ready', async () => {
     client,
     mongoUri: process.env.MONGO_URI,
     commandsDir: path.join(__dirname, 'commands'),
-    testServers: ['879296318395277352', '889564838710366248'],
-    botOwners: ['879296318395277352'],
+    testServers: ['1070131925756424252'],
+    botOwners: ['706984059183693854'],
     cooldownConfig: {
       errorMessage: 'Please wait {TIME}',
       botOwnersBypass: false,
